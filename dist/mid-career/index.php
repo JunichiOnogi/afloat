@@ -181,11 +181,7 @@ Email: saiyo@afloat.co.jp<br>
                 <li><a href="<?php echo APP_URL; ?>mid-career/?category=backoffice" class="opacity"><span>バックオフィス<br>採用</span></a></li>
                 <li><a href="https://lallyou.afloat.co.jp/recruit/" target="_blank" rel="noopener noreferrer" class="opacity"><span>LallYou<br>採用</span></a></li>
             </ul>
-            <ul class="p-rct-navi">
-                <li class="p-rct-navi__item"><a href="https://lit.link/afloatrecruit" target="_blank" rel="noopener noreferrer" class="opacity p-rct-navi__item--entry"><span>エントリー</span></a></li>
-                <li class="p-rct-navi__item"><a href="#" class="opacity p-rct-navi__item--line"><span>LINEで応募</span></a></li>
-                <li class="p-rct-navi__item"><a href="#" class="opacity p-rct-navi__item--company"><span>会社概要</span></a></li>
-            </ul>
+            <?php include($path . 'libs/li-rct-navi.php'); ?>
         </article>
     </main>
 
