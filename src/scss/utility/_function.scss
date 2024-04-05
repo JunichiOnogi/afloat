@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+$viewport_pc: 1300;
+$viewport_sp: 375;
+
+@function pxtovw($num, $width: $viewport_pc) {
+    @return (1vw * $num / $width * 100);
+}
+
+@function pxtovw_sp($num, $width: $viewport_sp) {
+    @return (1vw * $num / $width * 100);
+}
+
+//MediaQuery 
+$mq-breakpoints: (
+    'sm': 768px,
+) !default;
+
+@mixin mq($breakpoint: md, $rule: max) {
+    $breakpoint: map-get($mq-breakpoints, $breakpoint);
+    @if $rule == max {
+        $breakpoint: $breakpoint - 1px;
+    }
+    @media screen and (#{$rule}-width: $breakpoint) {
+        @content;
+    }
+}

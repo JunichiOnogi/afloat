@@ -1,0 +1,1 @@
+{"version":3,"sources":["page/recruit_new.scss"],"names":[],"mappings":"AAIA,KACI,YAAA,EAGJ,YACI,MAAA","file":"../../page/recruit_new.min.css","sourcesContent":["@charset \"UTF-8\";\n@import \"../utility/variable\";\n@import \"../utility/function\";\n\nbody {\n    padding-top: 0;\n}\n\n.p-rct-head{\n    width:100%;\n}"]}
