@@ -15,7 +15,7 @@ include($path . 'libs/head.php');
         <div class="pankuzu">
             <ul>
                 <li><a href="<?php echo APP_URL; ?>" class="opacity">AFLOAT TOP</a></li>
-                <li><a href="<?php echo APP_URL; ?>" class="opacity">RECRUIT</a></li>
+                <li><a href="<?php echo APP_URL; ?>recruit/" class="opacity">RECRUIT</a></li>
                 <li>NEW GRADUATE RECRUITMENT</li>
             </ul>
         </div>
@@ -434,7 +434,7 @@ Email: saiyo@afloat.co.jp<br>
                     <p class="p-rct-enttl --pink">FORM</p>
                     <h2 class="p-rct-ttl"><span>応募フォーム</span></h2>
                 </div>
-                    <form method="post" action="mail.php" enctype="multipart/form-data">
+                    <form method="post" action="../mail-recruit-ng.php" enctype="multipart/form-data">
                     <div class="in">
                         <div class="list">
                             <ul class="item col02">
@@ -471,11 +471,11 @@ Email: saiyo@afloat.co.jp<br>
                             </div>
                             <div class="box">
                                 <p class="ttl"><label>自分の顔写真<span>*</span></label>
-                                    <small>顔がわかる写真（上半身）を10MB以下でアップロードしてください</small>
+                                    <small>顔がわかる写真（上半身）を3MB以下でアップロードしてください</small>
                                 </p>
                                 <div class="input file">
                                     <label>
-                                        <input type="file" name="自分の顔写真[]" onchange="previewFile(event,'face')">
+                                        <input type="file" name="添付ファイル[]" onchange="previewFile(event,'face')" id="requireFace">
                                         <span>ファイルを追加</span>
                                     </label>
                                     <div class="preview" id="preview_face"></div>
@@ -483,11 +483,11 @@ Email: saiyo@afloat.co.jp<br>
                             </div>
                             <div class="box">
                                 <p class="ttl"><label>成績証明書<span>*</span></label>
-                                    <small>写真データまたはスキャンデータをアップロードしてください。学校から「開封無効」として渡されている場合も、開封していただいてOKですので、写真データをアップしてください。</small>
+                                    <small>写真データまたはスキャンデータを3MB以下でアップロードしてください。学校から「開封無効」として渡されている場合も、開封していただいてOKですので、写真データをアップしてください。</small>
                                 </p>
                                 <div class="input file">
                                     <label>
-                                        <input type="file" name="成績証明書[]" onchange="previewFile(event,'grade')">
+                                        <input type="file" name="添付ファイル[]" onchange="previewFile(event,'grade')" id="requireGrade">
                                         <span>ファイルを追加</span>
                                     </label>
                                     <div class="preview" id="preview_grade"></div>
@@ -796,13 +796,13 @@ Email: saiyo@afloat.co.jp<br>
                                 <div class="input"><input name="InstagramのID" type="text" placeholder="例）@afloat_ceo"></div>
                             </div>
                             <div class="box">
-                                <p class="ttl"><label>最後にPRしたい作品等あれば1枚アップしてください</label>
+                                <p class="ttl"><label>最後にPRしたい作品等あれば1枚3MB以下でアップしてください。</label>
                                     <small>例：スタイル写真、得意科目、特技や趣味に関わるものなど<br>
                                         ※動画不可</small>
                                 </p>
                                 <div class="input file">
                                     <label>
-                                        <input type="file" name="PRしたい作品等[]" onchange="previewFile(event,'pr')">
+                                        <input type="file" name="添付ファイル[]" onchange="previewFile(event,'pr')">
                                         <span>ファイルを追加</span>
                                     </label>
                                     <div class="preview" id="preview_pr"></div>
@@ -810,7 +810,7 @@ Email: saiyo@afloat.co.jp<br>
                             </div>
                         </div>
                     </div>
-                    <div class="p-rct-link"><button type="submit" class="p-rct-link__btn"><span>確認画面へ</span></button></div>
+                    <div class="p-rct-link"><button type="submit" class="p-rct-link__btn" onclick="return recruitFormCheck()"><span>確認画面へ</span></button></div>
                 </form>
                 </div>
             </section>

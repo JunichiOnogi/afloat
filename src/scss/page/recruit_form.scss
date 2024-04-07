@@ -2,6 +2,83 @@
 @import "../utility/variable";
 @import "../utility/function";
 
+.p-rct {
+    &-enttl {
+        font-size: pxtovw(16);
+        color: rgba(#fff, 0.6);
+        font-family: $fontEn;
+        font-weight: bold;
+        line-height: 0.75;
+        letter-spacing: 0.1em;
+        margin-bottom: pxtovw(24);
+        @include mq(sm, max) {
+            font-size: pxtovw_sp(14);
+            margin-bottom: pxtovw_sp(18);
+            padding-left: pxtovw_sp(7);
+        }
+        &.--pink {
+            background: linear-gradient(90deg, #f4a062 0%, #eb907b 50%, #e3818e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            opacity: 0.6;
+        }
+        @include mq(sm, min) {
+            &.--lg {
+                font-size: pxtovw(18);
+                margin-bottom: pxtovw(30);
+            }
+        }
+    }
+
+    &-ttl {
+        display: inline-block;
+        line-height: 1.5;
+        background-color: #fff;
+        padding-inline: pxtovw(20);
+        box-decoration-break: clone;
+        -webkit-box-decoration-break: clone;
+        @include mq(sm, max) {
+            display: inline;
+            line-height: 1.7;
+            padding: pxtovw_sp(24) pxtovw_sp(7) pxtovw_sp(8.5);
+        }
+        @media screen and (max-width: 440px) {
+            padding: pxtovw_sp(20.5) pxtovw_sp(7) pxtovw_sp(8.5);
+        }
+        @media screen and (max-width: 390px) {
+            padding: pxtovw_sp(18.5) pxtovw_sp(7) pxtovw_sp(8.5);
+        }
+
+        span {
+            font-size: pxtovw(40);
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            background: linear-gradient(90deg, #f4a062 0%, #eb907b 50%, #e3818e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            @include mq(sm, max) {
+                font-size: pxtovw_sp(30);
+            }
+        }
+
+        &--white {
+            display: inline-block;
+            font-size: pxtovw(40);
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            line-height: 1.5;
+            color: #fff;
+            padding-inline: pxtovw(20);
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+            background: linear-gradient(90deg, #f4a062 0%, #eb907b 50%, #e3818e 100%);
+            @include mq(sm, max) {
+                font-size: pxtovw_sp(30);
+            }
+        }
+    }
+}
+
 .sec-form {
     background: #eaeaea;
     padding: pxtovw(75) 0 pxtovw(130);
@@ -239,6 +316,24 @@
                     }
                 }
             }
+        }
+    }
+}
+
+.sec-confirm{
+    .txt {
+        margin-top: pxtovw(20);
+        @media only screen and (max-width: 767px) {
+            margin-top: pxtovw_sp(15);
+        }
+    }
+}
+
+.sec-thanks{
+    .ttl {
+        margin-top: pxtovw(20);
+        @media only screen and (max-width: 767px) {
+            margin-top: pxtovw_sp(15);
         }
     }
 }
