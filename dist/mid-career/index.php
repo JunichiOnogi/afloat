@@ -14,7 +14,7 @@ include($path . 'libs/head.php');
         <div class="pankuzu">
             <ul>
                 <li><a href="<?php echo APP_URL; ?>" class="opacity">AFLOAT TOP</a></li>
-                <li><a href="<?php echo APP_URL; ?>" class="opacity">RECRUIT</a></li>
+                <li><a href="<?php echo APP_URL; ?>recruit/" class="opacity">RECRUIT</a></li>
                 <li>MID CAREER RECRUITMENT</li>
             </ul>
         </div>

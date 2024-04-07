@@ -14,7 +14,7 @@ include($path . 'libs/head.php');
         <div class="pankuzu">
             <ul>
                 <li><a href="<?php echo APP_URL; ?>" class="opacity">AFLOAT TOP</a></li>
-                <li><a href="<?php echo APP_URL; ?>" class="opacity">RECRUIT</a></li>
+                <li><a href="<?php echo APP_URL; ?>recruit/" class="opacity">RECRUIT</a></li>
                 <li>NEW GRADUATE RECRUITMENT</li>
             </ul>
         </div>
@@ -47,14 +47,14 @@ include($path . 'libs/head.php');
                 </div>
                 <div class="p-new-ex__youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/BIi_0E9xWm4?si=cLMGn4iZNYw_zIiL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
                 <section class="p-new-ex__schedule">
-                    <h3 class="p-rct-movie__wtc__ttl">動会社説明会<br class="pc">2024</h3>
+                    <h3 class="p-rct-movie__wtc__ttl">会社説明会<br class="pc">2024</h3>
                     <ul class="p-new-ex__schedule__info">
                         <li><span>東京</span>4/14（日）@ミルボン銀座スタジオ</li>
                         <li><span>名古屋</span>4/21（日）@アフロート名古屋</li>
                         <li><span>大阪</span>4/28（日）@ミルボン大阪スタジオ</li>
                     </ul>
                 </section>
-                <p class="p-rct-link --mt-sm-pc"><a href="https://docs.google.com/forms/d/e/1FAIpQLSceerfU0lksqkwLNkjE6G3dCBLR6Js85xfxB9UR0dgudpZ7rw/viewform" target="_blank" rel="noopener noreferrer" class="p-rct-link__btn"><span>説明会のお申し込みはこちら</span></a></p>
+                <p class="p-rct-link --mt-sm-pc"><a href="https://forms.gle/c6USVZNU7xrF5eWY6" target="_blank" rel="noopener noreferrer" class="p-rct-link__btn"><span>説明会のお申し込みはこちら</span></a></p>
             </section>
             <section class="p-new-sys scroll-anim to-anim-top" id="system">
                 <div class="center">
@@ -354,7 +354,7 @@ Email: saiyo@afloat.co.jp<br>
                         <h3 class="p-new-ttl">サロン実習</h3>
                         <p class="p-new-tour__enttl">Training</p>
                         <p class="p-new-txt">インターンシップをご希望の方はこちら<br>※希望シフトの2週間前までに申請ください</p>
-                        <p class="p-rct-link --mt-xs"><a href="https://forms.gle/Rv1Hbj1oMVkK81tF7" target="_blank" rel="noopener noreferrer" class="p-rct-link__btn"><span>実習のお申し込みはこちら</span></a></p>
+                        <p class="p-rct-link --mt-xs"><a href="https://forms.gle/C6sewnZsM7mWmTnXA" target="_blank" rel="noopener noreferrer" class="p-rct-link__btn"><span>実習のお申し込みはこちら</span></a></p>
                     </section>
                 </div>
             </section>
@@ -366,31 +366,31 @@ Email: saiyo@afloat.co.jp<br>
                 <div class="p-new-sch__inner">
                     <ul class="p-new-sch__list">
                         <li class="p-new-sch__item">
-                            <button type="button" class="is-active">北海道エリア</button>
+                            <button type="button">北海道エリア</button>
                             <p>札幌ビューティーアート専門学校/札幌ベルエポック美容専門学校/札幌ビューティックアカデミー/札幌ビューティー専門学校/北海道美容専門学校/北海道旭川実業高校/北海道理容美容専門学校</p>
                         </li>
                         <li class="p-new-sch__item">
-                            <button type="button" class="is-active">東北エリア</button>
+                            <button type="button">東北エリア</button>
                             <p>盛岡ヘアメイク専門学校/青森ヘアアーチスト専門学校/仙台ビューティーアート専門学校/仙台ヘアメイク専門学校/東北ヘアーモード学院/国際ビューティー＆フード大学</p>
                         </li>
                         <li class="p-new-sch__item">
-                            <button type="button" class="is-active">関東エリア</button>
+                            <button type="button">関東エリア</button>
                             <p>山野美容専門学校/日本美容専門学校/東京モード学園/東京総合美容専門学校/早稲田美容専門学校/東京文化美容専門学校/東京ベルエポック美容専門学校/東京マックス美容専門学校/東京ビューティーアート専門学校/東京ヘアビューティ専門学校/東京美容専門学校/国際文化理容美容専門学校 国分寺校/拓殖大学/国際文化理容美容専門学校渋谷校/帝京大学/東京都立赤坂高等学校/立正大学/東京愛犬専門学校/東海大学短期大学部/東京ダンス＆アクターズ専門学校/文京学院大学/麻布大学附属渕野辺高等学校/東京女子大学/東京ヘアビューティー専門学校/東京ビューティー＆ブライダル/立命館大学/立教女学院短期大学/ベルエポック美容専門学校/ハリウッド美容専門学校/高山美容専門学校/国際理容美容専門学校/資生堂美容技術専門学校/国際文化理容美容専門学校/エビスビューティーカレッジ/山野美容芸術短期大学/国際文化理容美容専門学校 渋谷校/ハリウッドワールド美容専門学校/関東美容専門学校/窪田理容美容専門学校/タカラ美容専門学校/東洋理容美容専門学校/日本工学院専門学校/ミス・パリ・ビューティ専門学校/中央動物専門学校/エビスビューティカレッジ/国際文化理美容専門学校/駿台外語＆ビジネス専門学校/アポロ美容理容専門学校/ハリウッドビューティ専門学校/マリールイズ美容専門学校/ミス・パリ・ビューティ専門学校/学校法人山野学苑山野美容専門学校/国際ビューティ・ファッション専門学校/山野美容専門学校/真野美容専門学校/赤羽商業高校/専門学校エビスビューティカレッジ山野美容専門学校/横浜ビューティーアート専門学校/岩谷学園アーティスティックB横浜美容専門/横浜ビューティー&ブライダル専門学校/横浜理容美容専門学校/岩崎学園横浜ｆカレッジ/東洋英和女学院大学/岩谷学園B横浜美容専門学校/岩谷学園アーティスティックB横浜美容専門学校/宇都宮美容専門学校/足利デザインビューティー専門学校/センスビューティーカレッジ/高崎ビューティモード専門学校/関東学院大学/組合立千葉美容専門学校/千葉県立二和高等学校/千葉県立市川南高等学校/パリ総合美容専門学校/足利デザインビューティ専門学校/ユニバーサルビューティーカレッジ/パリ総合美容専門学校 柏校/ジェイヘアメイク専門学校/高崎ビューティーモード専門学校/作新学院大学女子短期大学/千葉美容専門学校/埼玉県立三郷高等学校/大宮ビューティー＆ブライダル専門学校/浦和実業学園高等学校/埼玉県立三郷高等学校/大宮ビューティー＆ブライダル専門学校/浦和実業学園高等学校</p>
                         </li>
                         <li class="p-new-sch__item">
-                            <button type="button" class="is-active">中部エリア</button>
+                            <button type="button">中部エリア</button>
                             <p>中日美容専門学校/愛知美容専門学校/名古屋美容専門学校/名古屋ビューティーアート専門学校/名古屋モード学園/名古屋綜合美容専門学校/愛媛県美容専門学校/名古屋理容美容専門学校/名古屋観光専門学校/名古屋外語ホテルブライダル専門学校/名古屋女子大学/名古屋市立楠中学校/名古屋美容専門学校学校/中部美容専門学校/至学館高等学校/中部美容専門学校 名古屋校/東海理容美容専門学校/富山県理容美容専門学校/専門学校富山ビューティーカレッジ/国際ビューティモード専門学校/フリーエース美容学校/大垣日本大学高校学校/ルネサンスデザイン・美容専門学校/山梨美容専門学校/松本理容美容専門学校/石川県理容美容専門学校/専門学校金沢美専/国際ビジネス学院 専門学校 金沢美専/静岡新美容専門学校/岐阜美容専門学校/ベルフォートアカデミーオブビューティ</p>
                         </li>
                         <li class="p-new-sch__item">
-                            <button type="button" class="is-active">近畿エリア</button>
+                            <button type="button">近畿エリア</button>
                             <p>大阪ベルェベル美容専門学校/大阪モード学園/大阪ビューティーアート専門学校/大阪美容専門学校/大阪国際女子短期大学/関西美容専門学校/高津理容美容専門学校/ル・トーア東亜美容専門学校/グラムール美容専門学校/ECCアーティスト美容専門学校/高津アドヴァンスドビューティー専門学校/KANSAIビューティプロ専門学校/ヘアラルト阪神利用美容専門学校/ヴェールルージュ美容専門学校/ルトーア東亜美容専門学校/神戸ベルェベル美容専門学校/和歌山高等学校/奈良美容理容専門学校/ミエ・ヘア・アーチストアカデミー/旭美容専門学校/京都理容美容専修学校/京都理容美容専門学校</p>
                         </li>
                         <li class="p-new-sch__item">
-                            <button type="button" class="is-active">中国・四国エリア</button>
+                            <button type="button">中国・四国エリア</button>
                             <p>広島美容専門学校/YICビューティモード専門学校/香川理容美容アカデミー/専門学校徳島穴吹カレッジ/学校法人穴吹学園/穴吹ビューティカレッジ</p>
                         </li>
                         <li class="p-new-sch__item">
-                            <button type="button" class="is-active">九州・沖縄エリア</button>
+                            <button type="button">九州・沖縄エリア</button>
                             <p>福岡美容専門学校/福岡ベルエポック美容専門学校/北九州市立高等理容美容学校/麻生ビューティーカレッジ/専修学校麻生ビューティーカレッジ/モア・ヘアメイクカレッジ/大村美容専門学校/福岡南美容専門学校/宮崎美容専門学校/宮崎サザンビューティ美容専門学校/宮崎サザンビューティー美容専門学校/鹿児島女子大学付属高等学校/琉球美容専修学校/琉美インターナショナルビューティカレッジ/琉美インターナショナルビューティーカレッジ</p>
                         </li>
                     </ul>
@@ -405,24 +405,34 @@ Email: saiyo@afloat.co.jp<br>
                 <div class="p-new-faq__inner">
                     <ul class="p-new-faq__list">
                         <li class="p-new-faq__item">
-                            <button type="button">エントリー締切はいつですか？</button>
-                            <p>この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。</p>
+                            <button type="button">サロン見学やサロン実習の受入はやっていますか？</button>
+                            <p>どちらも受け入れております。<br>
+サロン見学をご希望の場合は、希望店舗に直接お電話でリクルート担当までお問い合わせください。<br>
+サロン実習をご希望の場合は、下のお問い合わせより採用関係宛にご連絡ください。</p>
                         </li>
                         <li class="p-new-faq__item">
-                            <button type="button">面接はオンラインですか？</button>
-                            <p>この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。</p>
+                            <button type="button">どんな人材が欲しいですか？</button>
+                            <p>美容師にとって一番大事な「笑顔」が素敵な方、決めたことをやり続けることのできる忍耐力のある方、明確な目標を持っている方を前向きに採用しております。</p>
                         </li>
                         <li class="p-new-faq__item">
-                            <button type="button">複数の職種に同時にエントリーすることは可能ですか？</button>
-                            <p>この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。</p>
+                            <button type="button">お客様の層が知りたいです。 女性のイメージが強いのですが、男性のお客様もいらっしゃいますか？</button>
+                            <p>店舗によって異なりますが、大体20～40代女性の方が多いです。もちろん男性のお客様も沢山いらっしゃっています。</p>
                         </li>
                         <li class="p-new-faq__item">
-                            <button type="button">面接や面談の際、服装や持ち物に指定はありますか？</button>
-                            <p>この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。</p>
+                            <button type="button">女性ヘアで売り出しているイメージが強いのですが、メンズで売り出すことも可能ですか？</button>
+                            <p>もちろんです。それぞれ自分の好きなスタイルで売り出しているスタッフが殆どなので、メンズヘアで売り出すことも可能です。</p>
                         </li>
                         <li class="p-new-faq__item">
-                            <button type="button">面接会場について教えてください。</button>
-                            <p>この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。</p>
+                            <button type="button">カリキュラム練習はいつやるのですか？</button>
+                            <p>練習は営業前・営業後にやることが多いです。毎週各店で勉強会も実施しています。練習は強制ではないので、自分で計画を立ててキャリアプランを立て、効率よく進めることができます。</p>
+                        </li>
+                        <li class="p-new-faq__item">
+                            <button type="button">着付けはサロンワークで行いますか？</button>
+                            <p>着付けを営業ですることは殆どありません。</p>
+                        </li>
+                        <li class="p-new-faq__item">
+                            <button type="button">希望店舗は選べますか？</button>
+                            <p>はい、応募フォームに入力する際に第1希望・第2希望店舗を入力する欄がございます。内定後はなるべく希望店舗に配属できるよう調整しております。</p>
                         </li>
                     </ul>
                 </div>
