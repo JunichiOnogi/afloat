@@ -854,7 +854,7 @@ $c-gray:#eaeaea;
             rotate:-10deg;
             font-family:$HumbleHearts;
             color:$c-pink;
-            text-shadow: 0 0 .05em $c-pink-light;
+            text-shadow: 0 0 .05em $c-pink;
             @include mq(sm,max){
                 font-size: pxtovw_sp(60.75);
                 top:-.8em;
