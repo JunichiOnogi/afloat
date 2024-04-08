@@ -3002,7 +3002,7 @@ tr:first-child .p-new-sys__tbl__thead {
 }
 .p-new-faq__item {
   width: 100%;
-  padding: 0 1.5384615385vw 1.5384615385vw;
+  padding: 0 1.5384615385vw;
   border-width: 1px;
   border-style: solid;
   text-align: left;
@@ -3012,7 +3012,7 @@ tr:first-child .p-new-sys__tbl__thead {
 }
 @media screen and (max-width: 767px) {
   .p-new-faq__item {
-    padding: 0 4.2666666667vw 5.3333333333vw;
+    padding: 0 4.2666666667vw;
   }
 }
 .p-new-faq__item button {
@@ -3024,7 +3024,7 @@ tr:first-child .p-new-sys__tbl__thead {
   font-size: 1.0769230769vw;
   text-align: left;
   line-height: 1.57;
-  padding: 1.5384615385vw 3.0769230769vw 0 2vw;
+  padding: 1.5384615385vw 3.0769230769vw 1.5384615385vw 2vw;
   letter-spacing: 0.14em;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -3039,7 +3039,7 @@ tr:first-child .p-new-sys__tbl__thead {
     gap: 3.7333333333vw;
     font-size: 3.7333333333vw;
     margin-inline: -4.2666666667vw;
-    padding: 5.3333333333vw 5.3333333333vw 0 4.2666666667vw;
+    padding: 5.3333333333vw 5.3333333333vw 5.3333333333vw 4.2666666667vw;
     text-align: left;
   }
 }
@@ -3079,13 +3079,11 @@ tr:first-child .p-new-sys__tbl__thead {
   line-height: 1.58;
   letter-spacing: 0.14em;
   border-top: 1px dotted;
-  margin-top: 1.0769230769vw;
-  padding: 1.0769230769vw 1.5384615385vw 0 0.4615384615vw;
+  padding: 1.3846153846vw 1.5384615385vw 1.5384615385vw 0.4615384615vw;
 }
 @media screen and (max-width: 767px) {
   .p-new-faq__item p {
     font-size: 3.2vw;
-    margin-top: 3.7333333333vw;
-    padding: 3.7333333333vw 0 0;
+    padding: 4.2666666667vw 0 5.3333333333vw;
   }
 }/*# sourceMappingURL=recruit.css.map */

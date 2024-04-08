@@ -2768,7 +2768,7 @@ $c-gray:#eaeaea;
     }
     &__item{
         width:100%;
-        padding:0 pxtovw(20) pxtovw(20);
+        padding:0 pxtovw(20);
         border-width: 1px;
         border-style: solid;
         text-align: left;
@@ -2776,7 +2776,7 @@ $c-gray:#eaeaea;
         border-image-source:linear-gradient(90deg, #f4a062 0%, #eb907b 50%, #e3818e 100%);
         border-image-slice: 1;
         @include mq(sm,max){
-            padding:0 pxtovw_sp(16) pxtovw_sp(20);
+            padding:0 pxtovw_sp(16);
         }
         button{
             display: flex;
@@ -2787,7 +2787,7 @@ $c-gray:#eaeaea;
             font-size: pxtovw(14);
             text-align: left;
             line-height: 1.57;
-            padding:pxtovw(20) pxtovw(40) 0 pxtovw(26);
+            padding:pxtovw(20) pxtovw(40) pxtovw(20) pxtovw(26);
             letter-spacing: .14em;
             appearance: none;
             cursor: pointer;
@@ -2798,7 +2798,7 @@ $c-gray:#eaeaea;
                 gap:pxtovw_sp(14);
                 font-size: pxtovw_sp(14);
                 margin-inline:pxtovw_sp(-16);
-                padding:pxtovw_sp(20) pxtovw_sp(20) 0 pxtovw_sp(16);
+                padding:pxtovw_sp(20) pxtovw_sp(20) pxtovw_sp(20) pxtovw_sp(16);
                 text-align: left;
             }
             &::before{
@@ -2834,12 +2834,10 @@ $c-gray:#eaeaea;
             line-height: 1.58;
             letter-spacing: .14em;
             border-top: 1px dotted;
-            margin-top: pxtovw(14);
-            padding:pxtovw(14) pxtovw(20) 0 pxtovw(6);
+            padding:pxtovw(18) pxtovw(20) pxtovw(20) pxtovw(6);
             @include mq(sm,max){
                 font-size: pxtovw_sp(12);
-                margin-top: pxtovw_sp(14);
-                padding:pxtovw_sp(14) 0 0;    
+                padding:pxtovw_sp(16) 0 pxtovw_sp(20);    
             }
         }
     }
