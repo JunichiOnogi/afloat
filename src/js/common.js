@@ -94,3 +94,30 @@ window.onload = function(){
   document.body.oncopy = function(){return false;}
   document.body.oncontextmenu = function(){return false;}
 }
+
+// リクルートお問い合わせフォームファイルの名前プレビュー
+function previewFile(event, targetId) {
+  var file = event.target.files[0];
+  var fileName = file.name;
+  // var pFile = document.createElement('p');
+  var preview = document.getElementById("preview_" + targetId);
+  const fr = new FileReader();
+  fr.onload = function (e) {
+    preview.innerHTML = fileName;
+  };
+  fr.readAsDataURL(file);
+}
+
+function recruitFormCheck(){
+	if(document.getElementById("requireFace").value == ""){
+		window.alert('顔写真をアップしてください');
+		return false;
+	}
+	else if(document.getElementById("requireGrade").value == ""){
+		window.alert('成績証明書をアップしてください');
+		return false;
+	}
+	else{
+		return true;
+	}
+}
