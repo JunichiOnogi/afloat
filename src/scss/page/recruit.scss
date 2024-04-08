@@ -27,6 +27,12 @@ $c-pink:#d46b80;
 $c-pink-light:#ebb5bd;
 $c-gray:#eaeaea;
 
+@include mq(sm,max){
+    footer{
+        padding-bottom: 70px;
+    }
+}
+
 .p-rct{
 
 &-wrap{
@@ -35,6 +41,9 @@ $c-gray:#eaeaea;
     padding-bottom: pxtovw(120);
     @include mq(sm,max){
         padding-bottom: pxtovw_sp(54);
+    }
+    button{
+        color:#000;
     }
 }
 
@@ -234,7 +243,7 @@ $c-gray:#eaeaea;
             rotate:-10deg;
             font-family:$HumbleHearts;
             color:$c-pink-light;
-            text-shadow: 0 0 .05em $c-pink;
+            text-shadow: 0 0 .1em $c-pink,0 0 .05em $c-pink;
             white-space: nowrap;
             @include mq(sm,max){
                 font-size: pxtovw_sp(84.67);
@@ -301,7 +310,7 @@ $c-gray:#eaeaea;
         rotate:-10deg;
         font-family:$HumbleHearts;
         color:$c-pink;
-        text-shadow: 0 0 .05em $c-pink-light;
+        text-shadow: 0 0 .1em $c-pink-light,0 0 .05em $c-pink-light;
         @include mq(sm,max){
             font-size: pxtovw_sp(60.75);
             top:-.35em;
@@ -667,7 +676,7 @@ $c-gray:#eaeaea;
             font-family:$HumbleHearts;
             white-space: nowrap;
             color:$c-pink;
-            text-shadow: 0 0 .05em $c-pink-light;
+            text-shadow: 0 0 .1em $c-pink-light,0 0 .05em $c-pink-light;
             rotate:-10deg;
             line-height: 1;
             position: relative;
@@ -854,7 +863,7 @@ $c-gray:#eaeaea;
             rotate:-10deg;
             font-family:$HumbleHearts;
             color:$c-pink;
-            text-shadow: 0 0 .05em $c-pink;
+            text-shadow: 0 0 .1em $c-pink-light,0 0 .05em $c-pink-light;
             @include mq(sm,max){
                 font-size: pxtovw_sp(60.75);
                 top:-.8em;
@@ -1014,7 +1023,7 @@ $c-gray:#eaeaea;
         max-width:pxtovw(1002);
         background-color: #fff;
         margin: pxtovw(68) auto 0;
-        padding: pxtovw(60) pxtovw(144) pxtovw(70);
+        padding: pxtovw(60) pxtovw(130) pxtovw(70);
         border-radius:pxtovw(40);
         @include mq(sm,max){
             max-width:100%;
@@ -1294,8 +1303,26 @@ $c-gray:#eaeaea;
                 border:1px solid #f4a062;
                 border-right-color: #e3818e;
                 cursor: pointer;
+                position: relative;
                 @include mq(sm,max){
                     border-radius:pxtovw_sp(10) pxtovw_sp(10) 0 0;
+                }
+                &::after{
+                    content:"";
+                    width:pxtovw(7);
+                    height:pxtovw(7);
+                    border-right:1px solid #e3818e;
+                    border-bottom: 1px solid #e3818e;
+                    rotate:45deg;
+                    translate: -50% -50%;
+                    position: absolute;
+                    top:48%;
+                    right:pxtovw(40);
+                    @include mq(sm,max){
+                        width:pxtovw_sp(5);
+                        height:pxtovw_sp(5);
+                        right:pxtovw_sp(14);
+                    }
                 }
                 span{
                     font-size: pxtovw(16);
@@ -1310,6 +1337,9 @@ $c-gray:#eaeaea;
                 }
                 &.is-active{
                     background: linear-gradient(90deg, #f4a062 0%, #eb907b 50%, #e3818e 100%);
+                    &::after{
+                        border-color: #fff;
+                    }
                     span{
                         color:#fff;
                         background:none;
@@ -1697,7 +1727,7 @@ $c-gray:#eaeaea;
         font-family:$HumbleHearts;
         white-space: nowrap;
         color:$c-pink;
-        text-shadow: 0 0 .05em $c-pink-light;
+        text-shadow: 0 0 .1em $c-pink-light,0 0 .05em $c-pink-light;
         rotate:-10deg;
         line-height: 1;
         position: absolute;
@@ -1809,7 +1839,7 @@ $c-gray:#eaeaea;
             &__txt{
                 font-size: pxtovw(12);
                 line-height: 1.58;
-                letter-spacing: .1em;
+                letter-spacing: .04em;
                 @include mq(sm,max){
                     font-size: pxtovw_sp(12);
                 }
@@ -1820,7 +1850,7 @@ $c-gray:#eaeaea;
                 font-family:$HumbleHearts;
                 white-space: nowrap;
                 color:$c-pink;
-                text-shadow: 0 0 .05em $c-pink-light;
+                text-shadow: 0 0 .1em $c-pink-light, 0 0 .05em $c-pink-light;
                 rotate:-10deg;
                 text-align: right;
                 margin: pxtovw(10) 0 -.6em;
@@ -1897,8 +1927,6 @@ $c-gray:#eaeaea;
                 width:pxtovw_sp(126);
                 padding-block:pxtovw_sp(15);
                 font-size: pxtovw_sp(14);
-                position: sticky;
-                left: 0;
             }
             tr:first-child &{
                 padding-block:pxtovw(10);
@@ -1962,6 +1990,7 @@ $c-gray:#eaeaea;
             width:pxtovw(309);
             @include mq(sm,max){
                 width:pxtovw_sp(270);
+                margin-inline: auto;
             }
         }
         &__name{
@@ -2328,6 +2357,7 @@ $c-gray:#eaeaea;
                 left:50%;
                 font-size:pxtovw_sp(14);
                 translate:-50% 0;
+                padding-top: 0;
             }
         }
         &__list{
@@ -2499,7 +2529,7 @@ $c-gray:#eaeaea;
         font-family:$HumbleHearts;
         white-space: nowrap;
         color:$c-pink;
-        text-shadow: 0 0 .05em $c-pink-light;
+        text-shadow: 0 0 .1em $c-pink-light, 0 0 .05em $c-pink-light;
         rotate:-10deg;
         line-height: 1;
         position: absolute;
@@ -2631,6 +2661,7 @@ $c-gray:#eaeaea;
             }
         }
         p{
+            display: none;
             font-size: pxtovw(14);
             line-height: 1.58;
             letter-spacing: .14em;
@@ -2737,7 +2768,7 @@ $c-gray:#eaeaea;
     }
     &__item{
         width:100%;
-        padding:pxtovw(20);
+        padding:0 pxtovw(20) pxtovw(20);
         border-width: 1px;
         border-style: solid;
         text-align: left;
@@ -2745,25 +2776,29 @@ $c-gray:#eaeaea;
         border-image-source:linear-gradient(90deg, #f4a062 0%, #eb907b 50%, #e3818e 100%);
         border-image-slice: 1;
         @include mq(sm,max){
-            padding:pxtovw_sp(20) pxtovw_sp(16);
+            padding:0 pxtovw_sp(16) pxtovw_sp(20);
         }
         button{
             display: flex;
             align-items: center;
             gap:pxtovw(20);
-            width:100%;
+            width:calc(100% + pxtovw(40));
+            margin-inline:pxtovw(-20);
             font-size: pxtovw(14);
+            text-align: left;
             line-height: 1.57;
-            padding:0 pxtovw(20) 0 pxtovw(6);
+            padding:pxtovw(20) pxtovw(40) 0 pxtovw(26);
             letter-spacing: .14em;
             appearance: none;
             cursor: pointer;
             background: unset;
             border:none;
             @include mq(sm,max){
+                width:calc(100% + pxtovw_sp(32));
                 gap:pxtovw_sp(14);
                 font-size: pxtovw_sp(14);
-                padding:0 pxtovw_sp(4) 0 0;    
+                margin-inline:pxtovw_sp(-16);
+                padding:pxtovw_sp(20) pxtovw_sp(20) 0 pxtovw_sp(16);
                 text-align: left;
             }
             &::before{
